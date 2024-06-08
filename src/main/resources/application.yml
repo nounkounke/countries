@@ -1,0 +1,13 @@
+
+spring.application.name: country
+
+server.port: 8080
+
+load.animal: true
+#Ariies
+spring:
+  data:
+    mongodb:
+      database: countries
+  servlet.multipart.max-file-size: 1MB
+  servlet.multipart.max-request-size: 1MB
